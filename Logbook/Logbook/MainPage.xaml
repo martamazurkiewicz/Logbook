@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Logbook.MainPage">
+
+    <Grid BackgroundColor="LightCyan">
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".025*"/>
+            <RowDefinition Height=".19*"/>
+            <RowDefinition Height=".19*"/>
+            <RowDefinition Height=".19*"/>
+            <RowDefinition Height=".19*"/>
+            <RowDefinition Height=".19*"/>
+            <RowDefinition Height=".025*"/>
+        </Grid.RowDefinitions>
+        <Frame Grid.Row="1" BackgroundColor="LightSeaGreen" CornerRadius="15" Margin="15,5,15,10" HasShadow="True" OutlineColor="LightGray">
+            <Button Text="Add Dive" BackgroundColor="LightSeaGreen" CornerRadius="15" FontSize="Large" FontFamily="Roboto-Light.ttf"/>
+        </Frame>
+        <Frame Grid.Row="2" BackgroundColor="LightSeaGreen" CornerRadius="15" Margin="15,5,15,10" HasShadow="True" OutlineColor="LightGray">
+            <Button Text="History" BackgroundColor="LightSeaGreen" CornerRadius="15" FontSize="Large" FontFamily="Roboto-Light.ttf"/>
+        </Frame>
+        <Frame Grid.Row="3" BackgroundColor="LightSeaGreen" CornerRadius="15" Margin="15,5,15,10" HasShadow="True" OutlineColor="LightGray">
+            <Button Text="Diving Map" BackgroundColor="LightSeaGreen" CornerRadius="15" FontSize="Large" FontFamily="Roboto-Light.ttf"/>
+        </Frame>
+        <Frame Grid.Row="4" BackgroundColor="LightSeaGreen" CornerRadius="15" Margin="15,5,15,10" HasShadow="True" OutlineColor="LightGray">
+            <Button Text="Decompression Tables" BackgroundColor="LightSeaGreen" CornerRadius="15" FontSize="Large" FontFamily="Roboto-Light.ttf"/>
+        </Frame>
+        <Frame Grid.Row="5" BackgroundColor="LightSeaGreen" CornerRadius="15" Margin="15,5,15,10" HasShadow="True" OutlineColor="LightGray">
+            <Button Text="Dive Plan (BETA)" BackgroundColor="LightSeaGreen" CornerRadius="15" FontSize="Large" FontFamily="Roboto-Light.ttf"/>
+        </Frame>
+    </Grid>
+
+</ContentPage>
