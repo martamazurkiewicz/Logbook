@@ -9,8 +9,11 @@ namespace Logbook
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            bool signedIn = false;
+            if (signedIn)
+                MainPage = new MainPage();
+            else
+                MainPage = new SignInPage();
         }
 
         protected override void OnStart()
