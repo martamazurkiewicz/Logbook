@@ -31,10 +31,10 @@
             <Editor Margin="5,0,5,0" Placeholder="USERNAME" FontSize="Large" FontFamily="Roboto-Light.ttf" VerticalOptions="Center"/>
         </Frame>
         <Frame Margin="15,5,15,5" CornerRadius="20" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2">
-            <Editor Margin="5,0,5,0" Placeholder="NAME" FontSize="Large" FontFamily="Roboto-Light.ttf" VerticalOptions="Center"/>
+            <Editor Margin="5,0,5,0" Placeholder="FIRST NAME" FontSize="Large" FontFamily="Roboto-Light.ttf" VerticalOptions="Center"/>
         </Frame>
         <Frame Margin="15,5,15,5" CornerRadius="20" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3">
-            <Editor Margin="5,0,5,0" Placeholder="SURNAME" FontSize="Large" FontFamily="Roboto-Light.ttf" VerticalOptions="Center"/>
+            <Editor Margin="5,0,5,0" Placeholder="LAST NAME" FontSize="Large" FontFamily="Roboto-Light.ttf" VerticalOptions="Center"/>
         </Frame>
         <Frame Margin="15,5,15,5" CornerRadius="20" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="4">
             <Editor Margin="5,0,5,0" Placeholder="EMAIL" FontSize="Large" FontFamily="Roboto-Light.ttf" VerticalOptions="Center"/>
