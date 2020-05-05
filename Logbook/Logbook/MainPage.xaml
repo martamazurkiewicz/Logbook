@@ -6,59 +6,52 @@
              mc:Ignorable="d"
              x:Class="Logbook.MainPage">
 
-    <ScrollView BackgroundColor="LightCyan">
-        <Grid BackgroundColor="LightCyan" Margin="15,0,15,0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height=".2*"/>
-                <RowDefinition Height=".2*"/>
-                <RowDefinition Height=".2*"/>
-                <RowDefinition Height=".2*"/>
-                <RowDefinition Height=".2*"/>
-                <RowDefinition Height=".2*"/>
-                <RowDefinition Height=".2*"/>
-            </Grid.RowDefinitions>
-            <Frame Grid.Row="0" CornerRadius="15" Margin="0,15,0,5" 
+    <ScrollView BackgroundColor="LightCyan" Orientation="Vertical" VerticalOptions="FillAndExpand">
+        <StackLayout BackgroundColor="LightCyan" Margin="15,0,15,0" Spacing="10" 
+                     Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <Frame CornerRadius="15"  VerticalOptions="Start" Margin="0,20,0,10"
+                   HorizontalOptions="FillAndExpand"
                    HasShadow="True" OutlineColor="LightGray"
-                   Padding="0">
+                   Padding="0" HeightRequest="80">
                 <Button Text="Add Dive" BackgroundColor="PowderBlue"
                     FontSize="Large" FontFamily="Roboto-Light.ttf"/>
             </Frame>
-            <Frame Grid.Row="1" CornerRadius="15" Margin="0,0,0,5" 
+            <Frame CornerRadius="15" Margin="0,0,0,10" 
                    HasShadow="True" OutlineColor="LightGray"
-                   Padding="0">
-                <Button Text="History" BackgroundColor="PowderBlue" 
+                   Padding="0" HeightRequest="80">
+                <Button Text="Logbook" BackgroundColor="PowderBlue" 
                         FontSize="Large" FontFamily="Roboto-Light.ttf"/>
             </Frame>
-            <Frame Grid.Row="2" CornerRadius="15" Margin="0,0,0,5" 
+            <Frame CornerRadius="15" Margin="0,0,0,10" 
                    HasShadow="True" OutlineColor="LightGray"
-                   Padding="0">
+                   Padding="0" HeightRequest="80">
                 <Button Text="Diving Map" BackgroundColor="PowderBlue"
                         FontSize="Large" FontFamily="Roboto-Light.ttf"/>
             </Frame>
-            <Frame Grid.Row="3" CornerRadius="15" Margin="0,0,0,0" 
+            <Frame CornerRadius="15" Margin="0,0,0,10" 
                    HasShadow="True" OutlineColor="LightGray"
-                   Padding="0">
+                   Padding="0" HeightRequest="80">
                 <Button Text="Decompression Tables" BackgroundColor="PowderBlue"
                         FontSize="Large" FontFamily="Roboto-Light.ttf"/>
             </Frame>
-            <Frame Grid.Row="4" CornerRadius="15" Margin="0,0,0,5" 
+            <Frame CornerRadius="15" Margin="0,0,0,10" 
                    HasShadow="True" OutlineColor="LightGray"
-                   Padding="0">
+                   Padding="0" HeightRequest="80">
                 <Button Text="Dive Plan (BETA)" BackgroundColor="PowderBlue"
                         FontSize="Large" FontFamily="Roboto-Light.ttf"/>
             </Frame>
-            <Frame Grid.Row="5" CornerRadius="15" Margin="0,0,0,5" 
+            <Frame CornerRadius="15" Margin="0,0,0,10" 
                    HasShadow="True" OutlineColor="LightGray"
-                   Padding="0">
+                   Padding="0" HeightRequest="80">
                 <Button Text="Your Profile" BackgroundColor="PowderBlue"
                         FontSize="Large" FontFamily="Roboto-Light.ttf"/>
             </Frame>
-            <Frame Grid.Row="6" CornerRadius="15" Margin="0,0,0,15" 
+            <Frame CornerRadius="15" Margin="0,0,0,10" 
                    HasShadow="True" OutlineColor="LightGray"
-                   Padding="0">
+                   Padding="0" HeightRequest="80">
                 <Button Text="Settings" BackgroundColor="PowderBlue"
                         FontSize="Large" FontFamily="Roboto-Light.ttf"/>
             </Frame>
-        </Grid>
+        </StackLayout>
     </ScrollView>
 </ContentPage>

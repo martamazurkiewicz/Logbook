@@ -13,7 +13,7 @@ namespace Logbook
             if (signedIn)
                 MainPage = new MainPage();
             else
-                MainPage = new SignInPage();
+                MainPage = new MainPage();
         }
 
         protected override void OnStart()
