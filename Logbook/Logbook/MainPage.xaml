@@ -6,31 +6,52 @@
              mc:Ignorable="d"
              x:Class="Logbook.MainPage">
 
-    <Grid BackgroundColor="LightCyan">
-        <Grid.RowDefinitions>
-            <RowDefinition Height=".025*"/>
-            <RowDefinition Height=".19*"/>
-            <RowDefinition Height=".19*"/>
-            <RowDefinition Height=".19*"/>
-            <RowDefinition Height=".19*"/>
-            <RowDefinition Height=".19*"/>
-            <RowDefinition Height=".025*"/>
-        </Grid.RowDefinitions>
-        <Frame Grid.Row="1" BackgroundColor="LightSeaGreen" CornerRadius="15" Margin="15,5,15,10" HasShadow="True" OutlineColor="LightGray">
-            <Button Text="Add Dive" BackgroundColor="LightSeaGreen" CornerRadius="15" FontSize="Large" FontFamily="Roboto-Light.ttf"/>
-        </Frame>
-        <Frame Grid.Row="2" BackgroundColor="LightSeaGreen" CornerRadius="15" Margin="15,5,15,10" HasShadow="True" OutlineColor="LightGray">
-            <Button Text="History" BackgroundColor="LightSeaGreen" CornerRadius="15" FontSize="Large" FontFamily="Roboto-Light.ttf"/>
-        </Frame>
-        <Frame Grid.Row="3" BackgroundColor="LightSeaGreen" CornerRadius="15" Margin="15,5,15,10" HasShadow="True" OutlineColor="LightGray">
-            <Button Text="Diving Map" BackgroundColor="LightSeaGreen" CornerRadius="15" FontSize="Large" FontFamily="Roboto-Light.ttf"/>
-        </Frame>
-        <Frame Grid.Row="4" BackgroundColor="LightSeaGreen" CornerRadius="15" Margin="15,5,15,10" HasShadow="True" OutlineColor="LightGray">
-            <Button Text="Decompression Tables" BackgroundColor="LightSeaGreen" CornerRadius="15" FontSize="Large" FontFamily="Roboto-Light.ttf"/>
-        </Frame>
-        <Frame Grid.Row="5" BackgroundColor="LightSeaGreen" CornerRadius="15" Margin="15,5,15,10" HasShadow="True" OutlineColor="LightGray">
-            <Button Text="Dive Plan (BETA)" BackgroundColor="LightSeaGreen" CornerRadius="15" FontSize="Large" FontFamily="Roboto-Light.ttf"/>
-        </Frame>
-    </Grid>
-
+    <ScrollView BackgroundColor="LightCyan" Orientation="Vertical" VerticalOptions="FillAndExpand">
+        <StackLayout BackgroundColor="LightCyan" Margin="15,0,15,0" Spacing="10" 
+                     Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <Frame CornerRadius="15"  VerticalOptions="Start" Margin="0,20,0,10"
+                   HorizontalOptions="FillAndExpand"
+                   HasShadow="True" OutlineColor="LightGray"
+                   Padding="0" HeightRequest="80">
+                <Button Text="Add Dive" BackgroundColor="PowderBlue"
+                    FontSize="Large" FontFamily="Roboto-Light.ttf"/>
+            </Frame>
+            <Frame CornerRadius="15" Margin="0,0,0,10" 
+                   HasShadow="True" OutlineColor="LightGray"
+                   Padding="0" HeightRequest="80">
+                <Button Text="Logbook" BackgroundColor="PowderBlue" 
+                        FontSize="Large" FontFamily="Roboto-Light.ttf"/>
+            </Frame>
+            <Frame CornerRadius="15" Margin="0,0,0,10" 
+                   HasShadow="True" OutlineColor="LightGray"
+                   Padding="0" HeightRequest="80">
+                <Button Text="Diving Map" BackgroundColor="PowderBlue"
+                        FontSize="Large" FontFamily="Roboto-Light.ttf"/>
+            </Frame>
+            <Frame CornerRadius="15" Margin="0,0,0,10" 
+                   HasShadow="True" OutlineColor="LightGray"
+                   Padding="0" HeightRequest="80">
+                <Button Text="Decompression Tables" BackgroundColor="PowderBlue"
+                        FontSize="Large" FontFamily="Roboto-Light.ttf"/>
+            </Frame>
+            <Frame CornerRadius="15" Margin="0,0,0,10" 
+                   HasShadow="True" OutlineColor="LightGray"
+                   Padding="0" HeightRequest="80">
+                <Button Text="Dive Plan (BETA)" BackgroundColor="PowderBlue"
+                        FontSize="Large" FontFamily="Roboto-Light.ttf"/>
+            </Frame>
+            <Frame CornerRadius="15" Margin="0,0,0,10" 
+                   HasShadow="True" OutlineColor="LightGray"
+                   Padding="0" HeightRequest="80">
+                <Button Text="Your Profile" BackgroundColor="PowderBlue"
+                        FontSize="Large" FontFamily="Roboto-Light.ttf"/>
+            </Frame>
+            <Frame CornerRadius="15" Margin="0,0,0,10" 
+                   HasShadow="True" OutlineColor="LightGray"
+                   Padding="0" HeightRequest="80">
+                <Button Text="Settings" BackgroundColor="PowderBlue"
+                        FontSize="Large" FontFamily="Roboto-Light.ttf"/>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
