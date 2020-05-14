@@ -73,3 +73,4 @@ caketools/
 .idea
 Visual Studio 2019/**
 build/packages
+.ldb
